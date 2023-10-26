@@ -2,20 +2,43 @@ body{
     margin: 0;
     text-align: center;
     overflow: hidden;
-    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 255, 140)
 }
 video{
     position: absolute;
+    width: 500px;
+    height: 650px;
+    padding: 0 40px;
+    border: 3px solid blueviolet;
+    border-radius: 20%;
+    background-color: aqua;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     z-index: -1;
+}
+.container{
+    display: flex;
+    justify-content: center;
 }
 #heightInfo{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-100%);
-    border-bottom: 3px solid white;
-    width: 100%;
+    border-bottom: 3px solid rgb(251, 66, 66);
+    width: 500px;
+    z-index: 1;
+}
+.slider{
+    position: relative;
+    z-index: 1;
+    margin-top: 565px;
+    background-color: rgb(224, 158, 255);
+    padding: 15px 20px;
+    border: 1px solid rgb(89, 128, 255);
+    border-radius: 50px;
+    font-weight: bold;
 }

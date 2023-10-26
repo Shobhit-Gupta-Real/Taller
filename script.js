@@ -20,7 +20,7 @@ function onOrientationChange(event){
     } 
     let distance = document.getElementById("mySlider").value;
     document.getElementById("myLabel").innerHTML=
-        "Distance to tree: "+distance+" meters";
+        "Horizontal Dist: "+distance+" meters";
     const height=Math.tan(angle*Math.PI/180)*distance;
     document.getElementById("heightInfo").innerHTML= 
         height.toFixed(1)+"m ("+angle.toFixed(1)+"&deg;)";
