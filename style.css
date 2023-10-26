@@ -32,6 +32,9 @@ video{
     position: absolute;
     left: 50%;
     top: 50%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
     transform: translate(-50%,-100%);
     border-bottom: 3px solid rgb(251, 66, 66);
     width: 500px;
@@ -41,8 +44,9 @@ video{
     position: relative;
     z-index: 1;
     margin-top: 520px;
+    margin-right: 20px;
     background-color: rgb(224, 158, 255);
-    padding: 15px 20px;
+    padding: 10px 15px;
     border: 1px solid rgb(89, 128, 255);
     border-radius: 50px;
     font-weight: bold;
