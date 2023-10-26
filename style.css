@@ -8,8 +8,8 @@ body{
 }
 video{
     position: absolute;
-    width: 500px;
-    height: 650px;
+    width: 700px;
+    height: 850px;
     padding: 0 40px;
     border: 3px solid blueviolet;
     border-radius: 20%;
@@ -35,7 +35,7 @@ video{
 .slider{
     position: relative;
     z-index: 1;
-    margin-top: 565px;
+    margin-top: 1265px;
     background-color: rgb(224, 158, 255);
     padding: 15px 20px;
     border: 1px solid rgb(89, 128, 255);
